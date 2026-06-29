@@ -17,13 +17,13 @@ Google Colab
 📂 Dataset
 
 
-Source: Salary Prediction Data – Kaggle
+- Source: Salary Prediction Data – Kaggle
 
-Size: 1,000 observations
+- Size: 1,000 observations
 
-Dependent Variable: Annual Salary
+- Dependent Variable: Annual Salary
 
-Independent Variables:
+- Independent Variables:
 
 
 
