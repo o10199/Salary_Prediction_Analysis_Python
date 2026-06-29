@@ -36,7 +36,7 @@ import pandas as pd
 df = pd.read_csv('salary_prediction_data.csv')
 
 print(df.head(6))
-
+```
 
 🔍 Analysis & Solutions
 
@@ -47,6 +47,7 @@ Fits a multiple linear regression model using dummy variables for all categorica
 pythonimport statsmodels.api as sm
 from statsmodels.formula.api import ols
 
+```python
 model_dummies_only = ols(
     "Salary ~ Education + Experience + C(Gender) + C(Location) + C(Job_Title) + Age",
     data=df
@@ -54,6 +55,7 @@ model_dummies_only = ols(
 
 print("Model with dummy variables only:")
 print(model_dummies_only.summary())
+```
 
 2️⃣ Interaction Model — Does Experience Affect Salary Differently by Gender?
 
