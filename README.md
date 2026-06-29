@@ -45,10 +45,10 @@ print(df.head(6))
 
 Fits a multiple linear regression model using dummy variables for all categorical predictors.
 
+```python
 pythonimport statsmodels.api as sm
 from statsmodels.formula.api import ols
 
-```python
 model_dummies_only = ols(
     "Salary ~ Education + Experience + C(Gender) + C(Location) + C(Job_Title) + Age",
     data=df
