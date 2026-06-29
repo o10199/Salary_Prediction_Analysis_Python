@@ -28,6 +28,7 @@ VariableTypeDescriptionEducationCategoricalHigh School, Bachelor's (ref), Master
 
 🗄️ Setup
 
+```python
 pythonfrom google.colab import files
 uploaded = files.upload()
 
