@@ -22,9 +22,7 @@ Size: 1,000 observations
 Dependent Variable: Annual Salary
 Independent Variables:
 
-| Variable | Type | Description |
-|---|---|---|
-| Education | Categorical | High School... |
+
 
 VariableTypeDescriptionEducationCategoricalHigh School, Bachelor's (ref), Master's, PhDExperienceContinuousYears of professional experienceGenderCategoricalMale / FemaleLocationCategoricalUrban, Suburban, Rural (ref)Job TitleCategoricalDirector, Engineer, Manager, Analyst (ref)AgeContinuousAge in years
 
@@ -64,6 +62,7 @@ print(model_dummies_only.summary())
 
 Adds an interaction term between Experience and Gender to test whether returns to experience differ across genders.
 
+```python
 pythonmodel_with_interaction = ols(
     "Salary ~ Education + Experience + C(Gender) + C(Location) + C(Job_Title) + Experience*C(Gender) + Age",
     data=df
@@ -71,7 +70,7 @@ pythonmodel_with_interaction = ols(
 
 print("\nModel with interaction term:")
 print(model_with_interaction.summary())
-
+```
 
 📊 Key Findings
 
