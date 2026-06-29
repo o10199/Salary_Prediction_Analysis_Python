@@ -24,7 +24,14 @@ Independent Variables:
 
 
 
-VariableTypeDescriptionEducationCategoricalHigh School, Bachelor's (ref), Master's, PhDExperienceContinuousYears of professional experienceGenderCategoricalMale / FemaleLocationCategoricalUrban, Suburban, Rural (ref)Job TitleCategoricalDirector, Engineer, Manager, Analyst (ref)AgeContinuousAge in years
+| Variable | Type | Description |
+|---|---|---|
+| Education | Categorical | High School, Bachelor's (ref), Master's, PhD |
+| Experience | Continuous | Years of professional experience |
+| Gender | Categorical | Male / Female |
+| Location | Categorical | Urban, Suburban, Rural (ref) |
+| Job Title | Categorical | Director, Engineer, Manager, Analyst (ref) |
+| Age | Continuous | Age in years |
 
 
 🗄️ Setup
