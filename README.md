@@ -7,10 +7,10 @@ This project investigates the key factors that influence salary in the modern wo
 ## 🛠️ Tools & Technologies
 
 
-Python
-Pandas
-Statsmodels
-Google Colab
+- Python
+- Pandas
+- Statsmodels
+- Google Colab
 
 
 
@@ -89,24 +89,24 @@ print(model_with_interaction.summary())
 Education has a strong and statistically significant effect on salary (all p < 0.001):
 
 
-PhD: +$40,070 vs. Bachelor's (reference)
-Master's: +$21,000
-High School: −$18,040
+- PhD: +$40,070 vs. Bachelor's (reference)
+- Master's: +$21,000
+- High School: −$18,040
 
 
 📍 Location
 
 
-Urban: +$9,280 over Rural (reference)
-Suburban: +$3,910 over Rural
+- Urban: +$9,280 over Rural (reference)
+- Suburban: +$3,910 over Rural
 
 
 💼 Job Title
 
 
-Director: +$25,330 over Analyst (reference)
-Manager: +$15,750
-Engineer: +$4,800
+- Director: +$25,330 over Analyst (reference)
+- Manager: +$15,750
+- Engineer: +$4,800
 
 
 📈 Experience
