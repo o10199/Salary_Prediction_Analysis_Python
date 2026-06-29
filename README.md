@@ -4,7 +4,7 @@ Overview
 This project investigates the key factors that influence salary in the modern workforce using multiple linear regression. Using a dataset of 1,000 observations sourced from Kaggle, the analysis explores how education, experience, job title, location, gender, and age affect annual compensation — and whether the impact of experience on salary differs between genders.
 
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 
 Python
@@ -14,7 +14,7 @@ Google Colab
 
 
 
-📂 Dataset
+## 📂 Dataset
 
 
 - Source: Salary Prediction Data – Kaggle
@@ -37,7 +37,7 @@ Google Colab
 | Age | Continuous | Age in years |
 
 
-🗄️ Setup
+## 🗄️ Setup
 
 ```python
 pythonfrom google.colab import files
@@ -49,7 +49,7 @@ df = pd.read_csv('salary_prediction_data.csv')
 print(df.head(6))
 ```
 
-🔍 Analysis & Solutions
+## 🔍 Analysis & Solutions
 
 1️⃣ Base Model — Salary Predicted by Education, Experience, Gender, Location, Job Title, and Age
 
@@ -82,7 +82,7 @@ print("\nModel with interaction term:")
 print(model_with_interaction.summary())
 ```
 
-📊 Key Findings
+## 📊 Key Findings
 
 🎓 Education
 
@@ -118,12 +118,12 @@ Each additional year of professional experience adds approximately $1,000–$1,0
 Neither gender nor age showed a statistically significant direct effect on salary after controlling for all other variables (p = 0.420 and p = 0.670, respectively). The interaction between experience and gender was also non-significant (p = 0.440), suggesting that returns to experience are consistent across genders.
 
 
-📈 Model Performance
+## 📈 Model Performance
 
 Both models achieved an R² of 0.878, meaning the variables collectively explain approximately 88% of salary variance. The interaction term added no meaningful explanatory power.
 
 
-Conclusion
+## Conclusion
 
 Education, job title, location, and years of experience are the strongest predictors of salary. Gender and age had no significant direct impact on compensation in this dataset. The consistent returns to experience across genders suggest that career progression is rewarded equitably regardless of gender — though further causal research would be needed to draw firm conclusions.
 
