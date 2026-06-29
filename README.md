@@ -18,8 +18,11 @@ Google Colab
 
 
 Source: Salary Prediction Data – Kaggle
+
 Size: 1,000 observations
+
 Dependent Variable: Annual Salary
+
 Independent Variables:
 
 
