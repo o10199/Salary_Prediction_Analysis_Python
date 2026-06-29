@@ -22,6 +22,9 @@ Size: 1,000 observations
 Dependent Variable: Annual Salary
 Independent Variables:
 
+| Variable | Type | Description |
+|---|---|---|
+| Education | Categorical | High School... |
 
 VariableTypeDescriptionEducationCategoricalHigh School, Bachelor's (ref), Master's, PhDExperienceContinuousYears of professional experienceGenderCategoricalMale / FemaleLocationCategoricalUrban, Suburban, Rural (ref)Job TitleCategoricalDirector, Engineer, Manager, Analyst (ref)AgeContinuousAge in years
 
