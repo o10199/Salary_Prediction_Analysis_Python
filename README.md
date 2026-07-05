@@ -1,4 +1,4 @@
-# Salary_Prediction_Analysis_Python
+# Salary Prediction Analysis
 Overview
 
 This project investigates the key factors that influence salary in the modern workforce using multiple linear regression. Using a dataset of 1,000 observations sourced from Kaggle, the analysis explores how education, experience, job title, location, gender, and age affect annual compensation — and whether the impact of experience on salary differs between genders.
