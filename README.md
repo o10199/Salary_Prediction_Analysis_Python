@@ -126,8 +126,3 @@ Both models achieved an R² of 0.878, meaning the variables collectively explain
 ## Conclusion
 
 Education, job title, location, and years of experience are the strongest predictors of salary. Gender and age had no significant direct impact on compensation in this dataset. The consistent returns to experience across genders suggest that career progression is rewarded equitably regardless of gender — though further causal research would be needed to draw firm conclusions.
-
-
-References
-
-MrSimple. (2024, February 5). Salary prediction data. Kaggle. https://www.kaggle.com/datasets/mrsimple07/salary-prediction-data
